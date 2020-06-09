@@ -4,4 +4,14 @@ os:
   - linux
   - osx
 
+addons:
+  apt:
+    packages:
+      - shellcheck
+    update: true
+  homebrew:
+    packages:
+      - shellcheck
+    update: true
+
 script: make clean check
