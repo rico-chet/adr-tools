@@ -5,5 +5,3 @@ os:
   - osx
 
 script: make clean check
-
-sudo: false
